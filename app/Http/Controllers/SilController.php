@@ -7,5 +7,5 @@ use Silamoney\Client\Domain\{BalanceEnvironments,Environments};
 
 class SilController extends Controller
 {
-    
+
 }
