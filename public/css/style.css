@@ -1,0 +1,32 @@
+body {
+    background-image: linear-gradient(140deg,#064E3B, #46db77);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.card-blur{
+    background-color: rgba(255,255,255,0.5);
+
+}
+.font-password-1{
+    position: relative;
+}
+.font-password-1 i{
+    position: absolute;
+    /*left: 950px;*/
+    right: 10px;
+    top: 45px;
+}
+.Country{
+
+}
+
+.fileinput-remove,
+.fileinput-upload,
+.kv-file-upload{
+    display: none;
+}
+#fName, #mName, #lName, #eMail, #pNumber, #passs, #conpasss{
+    color: red;
+}
+
