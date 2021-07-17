@@ -28,7 +28,7 @@
                         <div class="form-row">
                             <div class="col-md-6 mb-3">
                                 <label for="validationCustom01">First name</label>
-                                <input type="text" value="{{$user->first_name}}" name="first_name" class="form-control" id="validationCustom01" placeholder="First Name" required>
+                                <input type="text" value="{{$user->first_name}}" name="first_name" class="form-control"  id="validationCustom01" placeholder="First Name" required>
                                 <span id="sFirstName" class="text-danger"></span>
                             </div>
                             <!--                            <div class="col-md-4 mb-3">-->

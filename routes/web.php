@@ -22,6 +22,6 @@ Auth::routes(['verify' => true]);
 
 
 
-Route::post('/registration', 'Sila\Registration@Register')->name('silaRegistration');
+Route::any('/registration', 'Sila\Registration@Register')->name('silaRegistration');
 Route::get('/home', 'HomeController@index')->name('home');
 //Route::get('/home', 'HomeController@index')->name('home');
