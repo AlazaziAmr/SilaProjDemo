@@ -1,8 +1,6 @@
-<?php
-
-    @extends('layout.header')
+@extends('layout.master')
+@section('title','silaRegister')
 @section('body')
-<div class="container">
     <!-- Start Register Account -->
     <div class="register my-4">
         <div class="container col-sm-8">
@@ -11,7 +9,7 @@
             <div class="card card-blur border-white mx-auto rounded">
 
                 <div class="text-center pt-5">
-                    <img src="{{asset('img/logo-white.svg')}}" width="200" height="100">
+                    <img src="img/logo-white.svg" width="200" height="100">
                 </div>
                 <div class="text-center pt-3">
                     <h3 class="font-weight-bold">Amanah Express</h3>
@@ -85,8 +83,8 @@
                         <div class="form-row">
                             <div class="col-md-6 mb-3">
                                 <div class="form-group">
-                                    <label for="formGroupExampleInput1">Email</label>
-                                    <input type="email" class="form-control" id="formGroupExampleInput1" placeholder="Example@Example.com">
+                                    <label for="siEmail">Email</label>
+                                    <input type="email" class="form-control" id="siEmail" placeholder="Example@Example.com">
                                     <span id="sEmail" class="text-danger"></span>
                                 </div>
                             </div>
@@ -101,7 +99,7 @@
                         <div class="pt-3 pb-5">
                             <div class="text-center">
                                 <div class="">
-                                    <button type="submit" onclick="silaValReg()" class="btn btn-dark btn-block">Register</button>
+                                    <button id="silaReg" class="btn btn-dark btn-block">Register</button>
                                 </div>
                             </div>
                         </div>
@@ -112,6 +110,5 @@
         </div>
     </div>
     <!-- End Register Account -->
-</div>
 
-    @extends('layout.footer')
+@stop
